@@ -1,0 +1,7 @@
+# Exact runtime versions; install the sibling OR-GPT repository separately.
+--extra-index-url https://download.pytorch.org/whl/cu128
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.16.3
+pyarrow==17.0.0
+torch==2.11.0+cu128

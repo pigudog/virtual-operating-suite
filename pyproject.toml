@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools==81.0.0", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virtual-operating-suite"
+version = "0.4.1"
+description = "Virtual operating suite and coordinating-agent evaluation."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "or-gpt==0.1.0",
+    "numpy==2.4.6",
+    "pandas==2.3.3",
+    "scipy==1.16.3",
+    "pyarrow==17.0.0",
+    "torch==2.11.0+cu128",
+]
+
+[project.urls]
+Homepage = "https://github.com/pigudog/virtual-operating-suite"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["virtual_suite*"]
+namespaces = false

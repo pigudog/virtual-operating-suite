@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article."
+title: "Learning and simulating the dynamics of surgical care delivery"
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Yu
+    given-names: Meng
+  - family-names: Zhang
+    given-names: Yangyang
+  - family-names: Xia
+    given-names: Wenjie
+  - family-names: Huang
+    given-names: Ying
+  - family-names: Weng
+    given-names: Ning
+  - family-names: Liu
+    given-names: Mingyue
+  - family-names: Chen
+    given-names: Yongqi
+  - family-names: Yang
+    given-names: Sumeng
+  - family-names: Wang
+    given-names: Zilong
+  - family-names: Wang
+    given-names: Shuo
+  - family-names: Guo
+    given-names: Qinhao
+  - family-names: Xu
+    given-names: Liping
+preferred-citation:
+  type: article
+  title: "Learning and simulating the dynamics of surgical care delivery"
+  year: 2026
+  authors:
+    - family-names: Yu
+      given-names: Meng
+    - family-names: Zhang
+      given-names: Yangyang
+    - family-names: Xia
+      given-names: Wenjie
+    - family-names: Huang
+      given-names: Ying
+    - family-names: Weng
+      given-names: Ning
+    - family-names: Liu
+      given-names: Mingyue
+    - family-names: Chen
+      given-names: Yongqi
+    - family-names: Yang
+      given-names: Sumeng
+    - family-names: Wang
+      given-names: Zilong
+    - family-names: Wang
+      given-names: Shuo
+    - family-names: Guo
+      given-names: Qinhao
+    - family-names: Xu
+      given-names: Liping
+repository-code: "https://github.com/pigudog/virtual-operating-suite"
